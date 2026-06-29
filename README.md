@@ -1,4 +1,4 @@
-# FASHION HUB
+# SHOPEZ
 
 Full Stack MERN Ecommerce Application
 
