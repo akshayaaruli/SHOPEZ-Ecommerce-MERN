@@ -6,7 +6,7 @@ return(
 
 <h1>
 
-🛒 Your Cart
+🛒 Your Fashion Cart
 
 </h1>
 
@@ -16,25 +16,29 @@ card
 p-4
 shadow
 mt-4
+border-0
 "
+style={{
+borderRadius:"18px"
+}}
 >
 
 <h4>
 
-iPhone 16
+Gucci GG Sunglasses
 
 </h4>
 
 <p>
 
-₹79,999
+₹32.000
 
 </p>
 
 <button
 className="
 btn
-btn-success
+btn-primary
 "
 >
 

@@ -1,31 +1,19 @@
-export default function Footer(){
+export default function Footer() {
+  return (
+    <div
+      className="
+      bg-primary
+      text-light
+      text-center
+      p-4
+      mt-5
+      "
+    > FASHION HUB
+      <h5></h5>
 
-return(
+      <p>Where Style Meets Confidence.</p>
 
-<div
-className="
-bg-dark
-text-light
-text-center
-p-4
-mt-5
-"
->
-
-<h5>
-
-ShopEZ
-
-</h5>
-
-<p>
-
-Premium Shopping Experience
-
-</p>
-
-</div>
-
-);
-
+      <small>©️ 2026 fashion hub. All Rights Reserved.</small>
+    </div>
+  );
 }

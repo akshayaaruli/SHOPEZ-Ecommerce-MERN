@@ -4,13 +4,11 @@ export default function Hero() {
 
       <div
         className="card border-0 overflow-hidden shadow-lg"
-        style={{
-          borderRadius: "20px"
-        }}
+        style={{ borderRadius: "20px" }}
       >
 
         <img
-          src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da"
+          src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
           alt="banner"
           height="500"
           style={{
@@ -20,34 +18,26 @@ export default function Hero() {
         />
 
         <div
-          className="
-          card-img-overlay
-          d-flex
-          align-items-center
-          bg-dark
-          bg-opacity-50
-          "
+          className="card-img-overlay d-flex align-items-center bg-dark bg-opacity-75"
         >
-
           <div className="ms-5">
 
-            <h1 className="text-warning fw-bold display-2">
-              SHOP SMART
+            <h1 className="text-info fw-bold display-2">
+              FASHION HUB
             </h1>
 
-            <p className="text-light fs-3">
-              Premium Shopping Experience
+            <p className="text-white fs-3">
+              Where Style Meets Confidence.
             </p>
-
+              
             <a
               href="/products"
-              className="btn btn-warning btn-lg"
+              className="btn btn-info btn-lg text-white"
             >
-              Shop Now
+              Explore Collection
             </a>
 
           </div>
-
         </div>
 
       </div>

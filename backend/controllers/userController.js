@@ -83,7 +83,7 @@ return res
 .json({
 
 message:
-"Wrong password"
+"Invalid password"
 
 });
 

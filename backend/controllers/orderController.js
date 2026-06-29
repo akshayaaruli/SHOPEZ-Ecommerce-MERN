@@ -13,9 +13,10 @@ await Order.create(
 req.body
 );
 
-res
-.status(201)
-.json(order);
+res.status(201).json({
+    message: "Your Fashion Hub order has been placed successfully!",
+    order
+})
 
 }
 

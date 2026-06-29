@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav
       className="
-      navbar
+      navbari
       navbar-expand-lg
       navbar-dark
       bg-dark
@@ -22,7 +22,7 @@ export default function Navbar() {
           fs-3
           "
         >
-          🛍 ShopEZ
+          🛍️ FASHION HUB
         </Link>
 
         <div>
@@ -53,7 +53,7 @@ export default function Navbar() {
             to="/cart"
             className="
             btn
-            btn-warning
+            btn-info text-white
             me-2
             "
           >
@@ -75,7 +75,7 @@ export default function Navbar() {
 to="/login"
 className="
 btn
-btn-success
+btn-primary
 "
 >
 

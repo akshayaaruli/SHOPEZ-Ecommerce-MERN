@@ -1,62 +1,35 @@
-import { useNavigate }
-from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-export default function ProductCard({
+export default function ProductCard({ product }) {
+  const navigate = useNavigate();
 
-product
+  return (
+    <div
+      className="card shadow-lg border-0"
+      style={{ borderRadius: "18px" }}
+    >
+      <div className="card-body text-center">
 
-}){
+        <span className="badge bg-danger mb-2">
+          New Arrival
+        </span>
 
-const navigate=
-useNavigate();
+        <h4 className="fw-bold">
+          {product.name}
+        </h4>
 
-return(
+        <h5 className="text-primary">
+          ₹ {product.price}
+        </h5>
 
-<div
-className=
-"card shadow"
->
+        <button
+          className="btn btn-primary w-100 mt-3"
+          onClick={() => navigate("/cart")}
+        >
+          Add to Cart
+        </button>
 
-<div
-className=
-"card-body"
->
-
-<h4>
-
-{product.name}
-
-</h4>
-
-<h5>
-
-₹ {product.price}
-
-</h5>
-
-<button
-
-className=
-"btn btn-success w-100"
-
-onClick={()=>
-
-navigate(
-"/cart"
-)
-
-}
-
->
-
-Buy Now
-
-</button>
-
-</div>
-
-</div>
-
-);
-
+      </div>
+    </div>
+  );
 }
